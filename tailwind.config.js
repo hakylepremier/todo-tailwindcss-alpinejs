@@ -13,6 +13,9 @@ module.exports = {
       fontFamily: {
         'plex-serif': ['"IBM Plex Serif"', 'serif'],
       },
+      gridTemplateColumns: {
+        'auto350': 'repeat(auto-fit, minmax(350px, 1fr))'
+      }
     },
   },
   plugins: [],
